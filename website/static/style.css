@@ -162,3 +162,15 @@ h3:hover .anchor,
   border-bottom: 1px solid #3b82f6;
   border-radius: 0.5em;
 }
+
+a:has(code) {
+  text-decoration: none;
+}
+a:has(code):hover {
+  text-decoration: #ac66e6 overline underline;
+  text-decoration-thickness: 2px;
+}
+
+a code {
+  color:  #c5d8ff;
+}
